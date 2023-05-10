@@ -1,16 +1,16 @@
 # ProjectApi
 Api для добавления дерева объектов
 
-getItems - Получение всех объектов
-getItemById - Получение объектов по id
-saveItem - Добавление нового объекта (параметры в Json-body - code, name, parent_id)
-updateItem - Обновление объекта (параметры в Json-body - id, code, name, parent_id)
-deleteItem - Каскадное удаление объектов по id узла
+getItems - Получение всех объектов<br/>
+getItemById - Получение объектов по id<br/>
+saveItem - Добавление нового объекта (параметры в Json-body - code, name, parent_id)<br/>
+updateItem - Обновление объекта (параметры в Json-body - id, code, name, parent_id)<br/>
+deleteItem - Каскадное удаление объектов по id узла<br/>
 
-В проект можно добавить любое количество объектов
-saveProject - Добавление нового проекта (параметры в Json-body - code, name)
-updateProject - Обновление проекта (параметры в Json-body - id, code, name, item_id)
-deleteProject - Удаление проекта по id (не приводит к удаление дерева объектов
+В проект можно добавить любое количество объектов<br/>
+saveProject - Добавление нового проекта (параметры в Json-body - code, name)<br/>
+updateProject - Обновление проекта (параметры в Json-body - id, code, name, item_id)<br/>
+deleteProject - Удаление проекта по id (не приводит к удаление дерева объектов<br/>
 
 Коллекцию с методами можно импортировать в Postman (внутри решения "Папка с коллекцией готовых методов в Postman")
 
